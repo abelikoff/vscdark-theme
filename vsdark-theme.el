@@ -1,11 +1,11 @@
-;;; vsdark-theme.el --- VS Code Dark+ like theme for Emacs.
+;;; vsdark-theme.el --- VS Code Dark+ like theme
 
 ;; Copyright (C) 2019, Alexander L. Belikoff
 
 ;; Author: Alexander L. Belikoff
-;; https://github.com/abelikoff/vsdark-theme
+;; URL: https://github.com/abelikoff/vsdark-theme
 ;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; Package-Requires: ((emacs "24.1"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
 
@@ -25,6 +25,8 @@
 ;; This file is not part of Emacs.
 
 ;;; Commentary:
+
+;; Load it via `load-theme` as any other theme file.
 
 ;;; Code:
 
@@ -251,6 +253,7 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'vsdark)
+(provide 'vsdark-theme)
 
 ;; Local Variables:
 ;; no-byte-compile: t
