@@ -1,4 +1,4 @@
-# vsdark-theme
+# vscdark-theme
 
 Visual Studio Code Dark+ like theme for Emacs 24.
 
@@ -7,7 +7,7 @@ Visual Studio Code Dark+ like theme for Emacs 24.
 
 ## Screenshot
 
-![Screenshot](https://github.com/abelikoff/vsdark-theme/raw/master/screenshot.png)
+![Screenshot](https://github.com/abelikoff/vscdark-theme/raw/master/screenshot.png)
 
 
 ## Installation
@@ -23,9 +23,9 @@ Configure MELPA package repository in `~/.emacs` (or `init.el`):
 
 Install the package:
 
-    M-x package-install vsdark-theme
+    M-x package-install vscdark-theme
 
 
 Load the theme:
 
-    (load-theme 'vsdark)
+    (load-theme 'vscdark)
