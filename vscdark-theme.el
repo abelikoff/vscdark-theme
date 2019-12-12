@@ -1,9 +1,9 @@
-;;; vsdark-theme.el --- VS Code Dark+ like theme
+;;; vscdark-theme.el --- VS Code Dark+ like theme
 
 ;; Copyright (C) 2019, Alexander L. Belikoff
 
 ;; Author: Alexander L. Belikoff
-;; URL: https://github.com/abelikoff/vsdark-theme
+;; URL: https://github.com/abelikoff/vscdark-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
@@ -30,7 +30,7 @@
 
 ;;; Code:
 
- (deftheme vsdark)
+ (deftheme vscdark)
  (let ((class '((class color) (min-colors 89)))
        (fg1           "#d4d4d4")
        (fg2           "#c1c1c1")
@@ -55,7 +55,7 @@
        (var           "#9cdcfe")
        (warning       "#ff0000"))
    (custom-theme-set-faces
-   'vsdark
+   'vscdark
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -253,11 +253,11 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'vsdark)
-(provide 'vsdark-theme)
+(provide-theme 'vscdark)
+(provide 'vscdark-theme)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; vsdark-theme.el ends here
+;;; vscdark-theme.el ends here
